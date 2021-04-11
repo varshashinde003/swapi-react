@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.div-table {
+  display: table;
+  width: 100%;
+  background-color: #eee;
+  border: 1px solid #666666;
+  border-spacing: 5px; /* cellspacing:poor IE support for  this */
+}
+.div-table-row {
+  display: table-row;
+  width: 100%;
+  clear: both;
+}
+.div-table-col {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: 100%;
+  background-color: #ccc;
+}
+.div-table-col-bold{
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: 100%;
+  background-color: #ccc;
+  font-weight: bold;
+}

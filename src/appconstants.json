@@ -1,0 +1,11 @@
+{
+  "PROTOCOL" :"http",
+  "IP_ADDRESS" : "54.86.169.121",
+  "PORT" : 8080,
+  "FILMS" : "films",
+  "PEOPLE" : "people",
+  "PLANETS":"planets",
+  "SPECIES":"species",
+  "STARSHIPS" : "starships",
+  "VEHICLES" : "vehicles"
+}
